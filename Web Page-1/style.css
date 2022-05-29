@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+textarea {
+	overflow: auto;
+}
+
+.page {
+	width: 760px;
+	height: auto;
+	margin: 15px auto;
+}
+
+.up {
+	width: 400px;
+	height: 50px;
+	margin: 0 0 0 11px;
+}
+
+.middle {
+	width: 760px;
+	height: 90px;
+	background: url(pictures/about.jpg);
+	padding: 60px 0 0 0;
+}
+
+.middleleft {
+	width: 400px;
+	height: 390px;
+	float: left;
+	font: 15px arial;
+	padding: 20px 0 0 10px;
+	color: #999;
+}
+
+.middleright {
+	width: 320px;
+	height: 400px;
+	float: left;
+	margin: 0 0 0 20px;
+	font: 15px arial;
+	color: #999;
+	padding-top: 30px;
+}
+
+.downleft {
+	width: 440px;
+	height: 100px;
+	float: left;
+	padding: 55px 0 0 0;
+	color: #ccc;
+	font: 11px tahoma;
+	border-top: 1px solid #ccc;
+}
+
+.downright {
+	width: 320px;
+	height: 100px;
+	float: left;
+	padding: 55px 0 0 0;
+	font: 12px tahoma;
+	border-top: 1px solid #ccc;
+	color: #ccc;
+}
+
+.up ul li {
+	float: left;
+}
+
+.up ul li a {
+	display: block;
+	text-decoration: none;
+	height: 50px;
+	text-indent: -2000px;
+}
+
+.up ul li#about a {
+	width: 71px;
+	background: url(pictures/css-baliklama16.gif) 0 -100px no-repeat;
+}
+
+.up ul li#services a {
+	width: 84px;
+	background: url(pictures/css-baliklama17.gif) no-repeat;
+}
+
+.up ul li#portfolio a {
+	width: 95px;
+	background: url(pictures/css-baliklama18.gif) no-repeat;
+}
+
+.up ul li#contact a {
+	width: 106px;
+	background: url(pictures/css-baliklama19.gif) no-repeat;
+}
+
+.up ul li#about a:hover {
+	background: url(pictures/css-baliklama16.gif) 0 -100px no-repeat;
+}
+
+.up ul li#services a:hover {
+	background: url(pictures/css-baliklama17.gif) 0 -100px no-repeat;
+}
+
+.up ul li#portfolio a:hover {
+	background: url(pictures/css-baliklama18.gif) 0 -100px no-repeat;
+}
+
+.up ul li#contact a:hover {
+	background: url(pictures/css-baliklama19.gif) 0 -100px no-repeat;
+}
+
+.text1 {
+	width: 250px;
+	height: 35px;
+	color: #FFF;
+	font: 20px verdana;
+	margin: 0 0 0 510px;
+}
+
+.text2 {
+	color: #fff;
+	font: bold 23px verdana;
+}
+
+.text3 {
+	color: #c60;
+	font: bold 20px tahoma;
+}
+
+.text4 {
+	font: bold 17px arial;
+}
+
+.text5 {
+	font: 25px tahoma;
+	color: #666;
+}
+
+.downright a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.downright a:hover {
+	text-decoration: underline;
+	color: #993;
+}
+
+.text6 {
+	color: #993;
+}
