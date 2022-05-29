@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url(fonts/open_sans_condensed-webfont.eot);
+	src: local('Open Sans Condensed'),
+		url('fonts/open_sans_condensed-webfont.woff') format('woff'),
+		url('fonts/open_sans_condensed-webfont.ttf') format('truetype'),
+		url('fonts/open_sans_condensed-webfont.svg#Open Sans Condensed') format('svg');
+
+}
+
+
+.up {
+	width: 100%;
+	height: 46px;
+	background: #333;
+}
+
+.middle1 {
+	width: 100%;
+	height: 500px;
+	padding: 120px 0 0 0;
+}
+
+.middle2 {
+	width: 100%;
+	height: 200px;
+	margin: 0 0 20px 0;
+}
+
+.down {
+	width: 100%;
+	height: 100px;
+	margin: 10px auto 0 auto;
+}
+
+.menu {
+	width: 1078px;
+	height: 46px;
+	margin: 0 auto;
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	display: block;
+	text-indent: -2000px;
+}
+
+.menu ul li#logo a {
+	width: 19px;
+	height: 23px;
+	background: url(pictures/tab_apple.png);
+	margin: 11px 0 0 0;
+}
+
+.menu ul li#store a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_store.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#mac a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_mac.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#iphone a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_iphone.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#watch a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_watch.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#ipad a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_ipad.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#ipod a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_ipod.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#itunes a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_itunes.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#support a {
+	width: 130px;
+	height: 20px;
+	background: url(pictures/tab_support.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li#search a {
+	width: 19px;
+	height: 19px;
+	background: url(pictures/search_icon_white.png);
+	margin: 15px 0 0 0;
+}
+
+.menu ul li a:hover {
+	opacity: 0.5;
+}
+
+.txt1 {
+	width: 280px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(pictures/ipadair_logo_large.png) center top no-repeat;
+	padding: 70px 0 0 0;
+	font: 40px 'Open Sans Condensed';
+	text-align: center;
+}
+
+.ipadair {
+	width: 1195px;
+	height: 34px;
+	background: url(pictures/ipadair_xlarge.jpg) no-repeat;
+	margin: 0 auto;
+}
+
+.ipadairalt {
+	width: 375px;
+	height: 40px;
+	margin: 50px auto 0 auto;
+}
+
+.ipadairsol {
+	width: 145px;
+	height: 40px;
+	float: left;
+}
+
+.ipadairsag {
+	width: 220px;
+	height: 40px;
+	float: left;
+	padding: 0 0 0 10px;
+}
+
+.ipadairsol a {
+	text-decoration: none;
+	font: 32px 'Open Sans Condensed';
+	color: #08c;
+}
+
+.ipadairsag a {
+	display: block;
+	text-decoration: none;
+	font: 32px 'Open Sans Condensed';
+	color: #08c;
+	background: url(pictures/sagok1.png) right no-repeat;
+}
+
+.ipadairsol a:hover {
+	color: #333;
+}
+
+.ipadairsag a:hover {
+	color: #333;
+	background: url(pictures/sagok2.png) right no-repeat;
+}
+
+.middle2 ul li {
+	float: left;
+	display: block;
+	width: 25%;
+}
+
+.middle2 ul li a {
+	display: block;
+	height: 200px;
+	text-indent: -2000px;
+}
+
+.middle2 ul li#mac a {
+	background: url(pictures/promo_imac_large.jpg) center;
+}
+
+.middle2 ul li#iphone a {
+	background: url(pictures/promo_iphone6_large.jpg) center;
+	margin: 0 0 0 5px;
+}
+
+.middle2 ul li#ios a {
+	background: url(pictures/promo_ios8_large.jpg) center;
+	margin: 0 0 0 5px;
+}
+
+.middle2 ul li#education a {
+	background: url(pictures/promo_education_large.jpg) center;
+	margin: 0 0 0 5px;
+}
+
+.down1 {
+	width: 450px;
+	height: 15px;
+	margin: 0 auto;
+	color: #666;
+	font: 11px arial;
+}
+
+.down2 {
+	width: 430px;
+	height: 15px;
+	margin: 10px auto;
+	color: #666;
+	font: 11px arial;
+}
+
+.down3 {
+	width: 390px;
+	height: 15px;
+	color: #333;
+	margin: 0 auto;
+	font: 11px arial;
+}
+
+.down a {
+	text-decoration: none;
+}
+
+.down1 a,
+down2 a {
+	color: #333;
+	text-decoration: none;
+}
+
+.down a:hover {
+	text-decoration: underline;
+}
