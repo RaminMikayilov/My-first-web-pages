@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+
+body {
+	background: url(pictures/bg.gif);
+}
+
+.page {
+	width: 821px;
+	height: auto;
+	margin: 15px auto;
+}
+
+.logo {
+	background: url(pictures/logo.gif);
+	width: 229px;
+	height: 94px;
+}
+
+.menu {
+	width: 821px;
+	height: 42px;
+	background: url(pictures/menu_bg.gif);
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	display: block;
+	height: 30px;
+	width: 80px;
+	padding: 12px 0 0 0;
+	font: bold 15px tahoma;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu ul li#home a {
+	display: block;
+	height: 30px;
+	width: 80px;
+	padding: 12px 0 0 0;
+	font: bold 15px tahoma;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background: url(pictures/menu_bullet.gif) center bottom no-repeat;
+}
+
+.menu ul li a:hover {
+	background: url(pictures/menu_bullet.gif) center bottom no-repeat;
+}
+
+.middle {
+	width: 801px;
+	height: 740px;
+	background: #e9e5e2;
+	padding: 30px 0 0 20px;
+}
+
+.middle1 {
+	width: 520px;
+	height: 270px;
+	float: left;
+}
+
+.middle3 {
+	width: 220px;
+	height: 250px;
+	float: left;
+	background: url(pictures/3dbox.gif) no-repeat;
+	margin: 20px 0 0 40px;
+}
+
+.txt1 {
+	width: 480px;
+	height: 40px;
+	background: url(pictures/checked.gif) no-repeat;
+	padding: 0 0 0 40px;
+	color: #06F;
+	font: 20px tahoma;
+}
+
+.txt2 {
+	font: bold 25px tahoma;
+	color: #F00;
+}
+
+.middle2 {
+	width: 446px;
+	height: 152px;
+	background: url(pictures/welcome_box.gif) no-repeat;
+	float: left;
+	font: 13px tahoma;
+	padding: 25px 25px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.txt3 {
+	color: #960;
+}
+
+.readmore {
+	width: 73px;
+	height: 20px;
+	background: url(pictures/read_more_bg.gif) no-repeat;
+	margin: 13px 0 0 350px;
+	color: #FFF;
+	font: bold 10px tahoma;
+	padding: 4px 0 0 25px;
+}
+
+.readmore a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.readmore a:hover {
+	text-decoration: underline;
+}
+
+.middle4 {
+	width: 450px;
+	height: 160px;
+	float: left;
+	font: bold 13px tahoma;
+	padding: 10px 0 0 30px;
+}
+
+.middle4 ul li {
+	display: block;
+	width: 442px;
+	height: 26px;
+	background: url(pictures/bullet_list.gif) no-repeat;
+	font: normal 11px tahoma;
+	padding: 4px 0 0 8px;
+}
+
+.txt4 {
+	font: bold 12px tahoma;
+}
+
+.middle5 {
+	width: 288px;
+	height: 159px;
+	float: left;
+	background: url(pictures/text_box.gif) no-repeat;
+	font: bold 13px tahoma;
+	padding: 30px 0 0 20px;
+}
+
+.txt5 {
+	font: bold 15px tahoma;
+}
+
+.metinqutusu {
+	width: 150px;
+	height: 16px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+
+.middle6 {
+	width: 450px;
+	height: 250px;
+	float: left;
+	font: 13px tahoma;
+	padding: 10px 0 0 30px;
+	line-height: 15px;
+}
+
+.middle6 ul li {
+	display: block;
+	width: 390px;
+	height: 80px;
+	background: url(pictures/news_icon.gif) no-repeat;
+	padding: 10px 0 0 40px;
+	float: left;
+	text-align: justify;
+}
+
+.txt6 {
+	font: bold 13px tahoma;
+}
+
+.middle7 {
+	width: 310px;
+	height: 209px;
+	float: left;
+	padding: 10px 0 0 0;
+	font: bold 13px tahoma;
+}
+
+.middle8 {
+	width: 248px;
+	height: 159px;
+	background: url(pictures/text_box.gif) no-repeat;
+	margin: 15px 0 0 0;
+	padding: 20px 20px;
+	font: normal 13px tahoma;
+	line-height: 17px;
+	text-align: justify;
+	font-style: italic;
+}
+
+.txt7 {
+	font: bold 13px tahoma;
+	font-style: italic;
+}
+
+.down1 {
+	width: 645px;
+	height: 42px;
+	float: left;
+}
+
+.down2 {
+	width: 176px;
+	height: 27px;
+	float: left;
+	background: url(pictures/csstemplatesmarket.gif) no-repeat;
+	;
+	margin: 15px 0 0 0;
+}
+
+.down1 ul li {
+	float: left;
+}
+
+.down1 ul li a {
+	display: block;
+	height: 42px;
+	text-decoration: none;
+	color: #CCC;
+	padding: 10px 10px;
+	font: 15px tahoma;
+}
+
+.down1 ul li a:hover {
+	text-decoration: underline;
+}
