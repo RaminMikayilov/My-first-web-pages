@@ -1,0 +1,383 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+
+.body {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.menu {
+	width: 1000px;
+	height: 46px;
+	background: #333;
+}
+
+.middle1 {
+	width: 250px;
+	height: 85px;
+	margin: 40px auto 0 auto;
+}
+
+.middle2 {
+	width: 883px;
+	height: 451px;
+	margin: 0 auto;
+}
+
+.middle21 {
+	width: 66px;
+	height: 55px;
+	float: left;
+	background: url(pictures/mp12.png);
+	margin: 351px 0 0 0;
+}
+
+.middle22 {
+	width: 36px;
+	height: 52px;
+	float: left;
+	background: url(pictures/k4.png);
+	margin: 354px 0 0 60px;
+}
+
+.middle23 {
+	width: 42px;
+	height: 51px;
+	float: left;
+	background: url(pictures/livephoto.png);
+	margin: 355px 0 0 60px;
+}
+
+.middle24 {
+	width: 229px;
+	height: 406px;
+	float: left;
+	background: url(pictures/6sbanner.png);
+	margin: 0 0 0 60px;
+}
+
+.middle25 {
+	width: 71px;
+	height: 69px;
+	float: left;
+	background: url(pictures/bit64.png);
+	margin: 337px 0 0 40px;
+}
+
+.middle26 {
+	width: 67px;
+	height: 69px;
+	float: left;
+	background: url(pictures/cpu70.png);
+	margin: 337px 0 0 40px;
+}
+
+.middle27 {
+	width: 67px;
+	height: 69px;
+	float: left;
+	background: url(pictures/gpu90.png);
+	margin: 337px 0 0 40px;
+}
+
+.middle3 {
+	width: 883px;
+	height: 45px;
+	background: url(pictures/shadow.png);
+	float: left;
+}
+
+.middle4 {
+	width: 750px;
+	height: 200px;
+	margin: 0 auto;
+	font: 20px helvetica;
+	text-align: center;
+	color: darkslategray;
+}
+
+#text1 {
+	font: bold 22px tahoma;
+	color: black;
+}
+
+.middle5 {
+	width: 1000px;
+	height: 464px;
+}
+
+.middle51 {
+	width: 348px;
+	height: 364px;
+	background-color: #333;
+	float: left;
+	font: 14px halveta;
+	color: rgb(243, 236, 236);
+	text-align: center;
+	padding: 100px 0 0 100px;
+	line-height: 15px;
+}
+
+.middle52 {
+	width: 552px;
+	height: 464px;
+	background: url(pictures/3dtouch.jpg);
+	float: left;
+	margin: 0 0 0 -1px;
+}
+
+#text2 {
+	font: bold 22px halveta;
+}
+
+.middle6 {
+	width: 840px;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.middle6 ul li {
+	float: left;
+	display: block;
+	width: 210px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	text-align: center;
+	font: 23px halveta;
+}
+
+.middle7 {
+	width: 840px;
+	height: 229px;
+	margin: 10px auto 0 auto;
+}
+
+.middle71 {
+	width: 176px;
+	height: 228px;
+	background: url(pictures/silver.png);
+	margin: 0 0 0 23px;
+	float: left;
+}
+
+.middle72 {
+	width: 176px;
+	height: 229px;
+	background: url(pictures/gold.png);
+	margin: 0 0 0 33px;
+	float: left;
+}
+
+.middle73 {
+	width: 176px;
+	height: 228px;
+	background: url(pictures/rose.png);
+	margin: 0 0 0 33px;
+	float: left;
+}
+
+.middle74 {
+	width: 176px;
+	height: 228px;
+	background: url(pictures/spacegray.png);
+	margin: 0 0 0 33px;
+	float: left;
+}
+
+.middle8 {
+	width: 840px;
+	height: 223px;
+	background: url(pictures/ayraclar.png);
+	float: left;
+	margin: 25px 0 0 80px;
+}
+
+.middle81 {
+	width: 210px;
+	height: 223px;
+	float: left;
+	font: 20px helvetica;
+	color: blue;
+	text-align: center;
+	line-height: 55px;
+}
+
+.middle81 ul li input {
+	width: 90px;
+	height: 24px;
+	background: url(pictures/satinal.png) no-repeat;
+	cursor: pointer;
+	border: none;
+}
+
+.down {
+	width: 840px;
+	height: 25px;
+	background: url(pictures/footer.png);
+	float: left;
+	margin: 100px 0 0 80px;
+}
+
+.down ul li {
+	display: block;
+	height: 15px;
+	float: left;
+	font: 11px helvetica;
+	padding: 10px 0 0 0;
+}
+
+.down ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.down ul li a:hover {
+	text-decoration: underline;
+}
+
+.down ul li#d1 {
+	width: 250px;
+}
+
+.down ul li#d2 {
+	width: 170px;
+	text-align: center;
+}
+
+.down ul li#d3 {
+	width: 147px;
+	text-align: center;
+}
+
+.down ul li#d4 {
+	width: 172px;
+	text-align: center;
+}
+
+.down ul li#d5 {
+	width: 93px;
+	text-align: center;
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	display: block;
+	text-indent: -2000px;
+	margin: 0 0 0 60px;
+}
+
+.menu ul li#apple a {
+	width: 16px;
+	height: 20px;
+	background: url(pictures/applelogo.png);
+	margin: 10px 0 0 30px;
+}
+
+.menu ul li#mac a {
+	width: 31px;
+	height: 44px;
+	background: url(pictures/mac.gif );
+}
+
+.menu ul li#ipad a {
+	width: 30px;
+	height: 44px;
+	background: url(pictures/ipad.gif);
+}
+
+.menu ul li#iphone a {
+	width: 48px;
+	height: 44px;
+	background: url(pictures/iphone.gif );
+}
+
+.menu ul li#watch a {
+	width: 44px;
+	height: 44px;
+	background: url(pictures/watch.gif);
+}
+
+.menu ul li#tv a {
+	width: 20px;
+	height: 44px;
+	background: url(pictures/tv.gif );
+}
+
+.menu ul li#music a {
+	width: 40px;
+	height: 44px;
+	background: url(pictures/music.gif);
+}
+
+.menu ul li#destek a {
+	width: 48px;
+	height: 44px;
+	background: url(pictures/destek.gif );
+}
+
+.menu ul li#search a {
+	width: 20px;
+	height: 44px;
+	background: url(pictures/search.gif);
+	margin: 0 0 0 100px;
+}
+
+.menu ul li#shop a {
+	width: 18px;
+	height: 44px;
+	background: url(pictures/shop.gif );
+	margin: 0 0 0 100px;
+}
+
+.menu ul li a:hover {
+	opacity: 0.5;
+}
