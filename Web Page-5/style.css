@@ -1,0 +1,390 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.basliq{
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url("picture/picture1.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto 500px ;
+    background-position: right ;
+    
+}
+#txt1{
+    font-size: 50px;
+   line-height: 55px;
+   letter-spacing: 2px;
+
+}
+#txt2 a{
+    color: #0f0;
+    text-decoration: none;
+}
+.orta1{
+    
+    width: 1510px;
+    height: 600px;
+    background-color: #2C2933;
+}
+.orta11{
+    float: left;
+    color: #ffffff;
+    padding-top: 160px;
+    padding-left: 200px;
+    font-family: arial;
+    font-size: 17px;
+    line-height: 25px;
+}
+.orta11 hr{
+    width: 60px;
+    height: 5px;
+    background-color: #0f0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+#txt3{
+    font-size: 35px;
+    line-height: 40px;
+}
+#txt4{
+    display: block;
+    width: 110px;
+    height: 40px;
+    background-color: #0f0;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;    
+}
+#txt4:hover{
+    background-color: #D5C837;
+}
+.orta12{
+    float: left;
+    width: 650px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 30px;
+    color: #000000;
+}
+.picture2{
+    width: 430px;
+    height: 330px;
+    background-image: url("picture/picture2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 200px;
+    margin-top:-80px;
+
+}
+.orta2{
+    width: 600px;
+    height: 400px;
+    color: #000000;
+    padding-top: 160px;
+    padding-left: 200px;
+    font-family: arial;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 60px;
+    float: left;
+    margin-left: -650px;
+}
+.orta2 hr{
+    width: 50px;
+    height: 5px;
+    background-color: #0f0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+#txt5{
+    font-size: 30px;
+}
+#txt6{
+    display: block;
+    width: 110px;
+    height: 40px;
+    background-color: #0f0;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;    
+}
+#txt6:hover{
+    background-color: #D5C837;
+}
+.orta3{
+    width: 400px;
+    height: 430px;
+    background-color: #DACF50;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.orta31{
+    width: 400px;
+    height: 380px;
+    background-image: url("picture/picture3.jpg");
+    float: left;
+    margin-left: -450px;
+    margin-top: 70px;
+}
+.orta4{
+    width: 1310px;
+    height: 500px;
+    background-color: #2C2933;
+    float: left;
+    color: #ffffff;
+    padding-top: 160px;
+    padding-left: 200px;
+    font-family: arial;
+    font-size: 17px;
+    line-height: 25px;
+    background-image: url("picture/picture4.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+}
+#txt7{
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: #0f0;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;    
+}
+#txt7:hover{
+    background-color: #D5C837;
+}
+
+.orta4 hr{
+    width: 60px;
+    height: 5px;
+    background-color: #0f0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+#txt8{
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.orta5{
+    width: 1200px;
+    height: 400px;
+    color: #000000;
+    padding-top: 60px;
+    padding-left: 170px;
+    font-family: arial;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 60px;
+    float: left;
+    
+}
+.orta51{
+    width: 600px;
+    height: 600px;
+    float: left;
+    background-image: url("picture/picture5.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+}
+.orta5 hr{
+    width: 50px;
+    height: 5px;
+    background-color: #0f0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.txt9{
+   float: left;
+   margin-left: 100px;
+    margin-top: 150px;
+}
+#txt10{
+    font-size: 30px;
+}
+#txt11{
+    display: block;
+    width: 110px;
+    height: 40px;
+    background-color: #0f0;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;    
+}
+#txt11:hover{
+    background-color: #D5C837;
+}
+.orta6{
+    width: 1510px;
+    height: 600px;
+    background-color: #2C2933;
+    margin-top: 270px;
+    float: left;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 17px;
+    
+   
+}
+.orta61{
+
+    float: left;   
+    padding-top: 160px;
+    padding-left: 200px;
+
+    line-height: 25px;
+}
+#txt13{
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: #0f0;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;    
+}
+#txt13:hover{
+    background-color: #D5C837;
+}
+#txt12{
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.orta61 hr{
+    width: 60px;
+    height: 5px;
+    background-color: #0f0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}  
+.orta62{
+    padding-top: 110px;
+    float: left;
+    margin-left: 100px;
+    
+}
+.orta62 input{
+    width: 550px;
+    height: 50px;
+    color: #ffffff;
+    background: #2C2933;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    font-family: arial;
+}
+.orta62 textarea{
+    width: 500px;
+    height: 90px;
+    background: #2C2933;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    font-family: arial;
+    color: #ffffff;
+}
+#submit{
+    width: 110px;
+    height: 40px;
+    background-color: #0f0;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+#submit:hover{
+    background-color: #D5C837;
+}
+
+.orta7{
+    width: 1510px;
+    height: 250px;
+    background-color: #000000;
+    float: left;
+}
+.logos{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+.logo1{
+    width: 40px;
+    height: 40px;
+    background-image: url("picture/facebook.jpg");
+    background-size: 40px 40px;
+    float: left;
+    background-color: #ffffff;
+}
+.logo2{
+    width: 40px;
+    height: 40px;
+    background-image: url("picture/twitter.jpg");
+    background-size: 40px 40px;
+    float: left;
+    background-color: #000000;
+}
+.logo3{
+    width: 70px;
+    height: 60px;
+    background-image: url("picture/instagram.jpg");
+    background-size: 70px 60px;
+    float: left;
+    background-color: #000000;
+}
+.logo4{
+    width: 50px;
+    height: 50px;
+    background-image: url("picture/linkedin.jpg");
+    background-size: 50px 50px;
+    float: left;
+    background-color: #000000;
+}
+#txt15{
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    font-family: arail;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    width: 1510px;
+    height: 100px;
+    background-color: #333333;
+    float:left;
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    line-height: 100px;
+    color: #ffffff;
+}
+footer a{
+    color: #DACF50;
+}
